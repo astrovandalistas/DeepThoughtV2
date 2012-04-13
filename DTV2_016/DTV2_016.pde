@@ -1,6 +1,6 @@
 /* 
 DTV2 - Codigo que controla todas las funciones de DeepThought. version 016.
-Leslie Garcia
+Leslie Garcia + Rodrigo Trevino Frenk
 http://dalab.ws/dtv2
 */
 

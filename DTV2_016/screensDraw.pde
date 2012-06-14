@@ -2,7 +2,7 @@ void drawScreens() {
   
   if(pantalla == 0){
  
-      message = "reset";
+      message = "end of the reading";
       text(message,width/2,height/2);
 
   }
@@ -11,7 +11,7 @@ void drawScreens() {
       text("Deep Thought -V.2.  //// ", 100, 200, 1000, 680);
        
        fill(255);
-      text("coloca tus dedos sobre los sensores del tablero//", 100, 400, 900, 680);
+      text("place your fingers on the sensors//", 100, 400, 900, 680);
       
 
   }
@@ -19,17 +19,17 @@ void drawScreens() {
      fill((counter%12) * 13 );
       text("Deep Thought -V.2.  //// ", 100, 200, 1000, 680);
        fill(255); 
-      text("-Respira profundo//", 100, 400, 1000, 680);
-      text("-Permite que el azar suceda//", 100, 500, 900, 680);
+      text("-Take a deep breath//", 100, 400, 1000, 680);
+      text("-Let chance happen//", 100, 500, 900, 680);
   }
   if(pantalla == 3){
-      message = "leyendo sensores";
+      message = "reading sensors";
       text(message,width/2,height/2);
       
       drawSensors();
   }
   if(pantalla == 4){
-      message = "procesando datos";
+      message = "processing data";
       text(message,width/2,height/2);
   }
   if(pantalla == 5){

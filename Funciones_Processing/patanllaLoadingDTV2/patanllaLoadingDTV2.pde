@@ -22,7 +22,7 @@ void draw() {
 
   background (0);
   fill(133);
-  text("busqueda en progeso un momento:", 90, 60, 550, 180);  
+  text("Search in progress ... one moment please:", 90, 60, 550, 180);  
   
   whichWord++;
   if (whichWord == words.length) {
